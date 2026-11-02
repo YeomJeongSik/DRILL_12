@@ -6,7 +6,7 @@ import game_world
 
 
 class Ball:
-    SPEED = 10
+    SPEED = 30
     HALF_SIZE = 10
 
     def __init__(self, x, y, direction):
