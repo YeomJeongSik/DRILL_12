@@ -1,8 +1,9 @@
 # 게임월드 리스트 초기화
 world = [[], []] # layers for game objects
 
-def add_object(o, depth=0):
+def add_object(o, depth = 0):
     world[depth].append(o)
+    pass
 
 def remove_object(o):
     for layer in world:
