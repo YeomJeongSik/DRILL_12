@@ -11,7 +11,7 @@ class Boy:
     LEG_Y = 50
 
     def __init__(self):
-        self.x, self.y = 400, 90
+        self.x, self.y = 400, 30
         self.frame = 0
         self.image = load_image(join(dirname(__file__), 'animation_sheet.png'))
         self.idle_started_at = get_time()
