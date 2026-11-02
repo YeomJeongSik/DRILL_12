@@ -8,7 +8,7 @@ from transitions import Machine
 
 
 class Boy:
-    LEG_Y = 50
+    LEG_Y = 70
 
     def __init__(self):
         self.x, self.y = 400, 30
